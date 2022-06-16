@@ -1,37 +1,73 @@
 <!DOCTYPE>
 <html>
-<head><title>Reviews y comentarios</title>       
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Reviews y comentarios</title>       
 </head>
 <body>
       <header> 
-            <div><h1>Reviews y comentarios</h1></div>
+            <div class="ryc"><h1>Reviews y comentarios</h1></div>
             <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
             <link rel="stylesheet" type="text/css" href="css/estilos.css" />
       </header>
-      <nav> 
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">​
+
+        <i class="fa fa-bars"></i>​
+ </a>
+      <nav id= "navegador2"> 
             <h1 id="nav"></h1>
             <ul class="navegador">
                   <li><a href="index.html">Home</a></li> 
                   <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
                   <li><a href="reviewsycomentarios.html">Reviews y comentarios</a></li>
                   <li><a href="personajes.html">Personajes</a></li>
-                  <li><a href="galeria.html">Galeria</a></li> 
+                  <li><a href="galeria.html">Galeria</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>   
             </ul>
       </nav>
       <div class="reviewsycomentarios"></div>
       <article class="reviewspic">
             <div>
                 <li><a href="https://www.nytimes.com/2018/05/17/arts/television/rick-and-morty.html">
-                    <img src="img/nytimes.jpeg" width="600" height="338">
-                    <h4>"Cada vez que me piden que explique el atractivo de Rick y Morty, propongo un experimento mental."- The New York Times</h4>
+                    <h2>The New York Times</h2>
+                    <img class="nytimesimg" src="img/nytimes.jpeg">
+                    <p>"Cada vez que me piden que explique el atractivo de Rick y Morty, propongo un experimento mental."</p>
                 </a></li>
             </div>
             <div class="reviewsgf">
                 <li><a href="https://decider.com/2017/06/27/really-internet-are-gravity-falls-and-rick-and-morty-connected-by-one-character/">
-                    <img src="img/gravityfallsofc.jpg" width="200" height="200">
-                    <h4>"Eso es esencialmente lo que son Gravity Falls y Rick and Morty , vías para que estos dos creadores expresen su brillante rareza. En esa misma entrevista, Hirsch dijo que querían "abusar salvajemente" de ese poder" -Decider.com</h4>
+                    <h3>Decider.com</h3>
+                    <img src="img/gravityfallsofc.jpg">
+                    <p>"Eso es esencialmente lo que son Gravity Falls y Rick and Morty , vías para que estos dos creadores expresen su brillante rareza. En esa misma entrevista, Hirsch dijo que querían "abusar salvajemente" de ese poder"</p>
                 </a></li>
             </div>
             
         </article>
+        <footer>
+            <nav> 
+            <ul class="navegadorpie">
+                  <li><a href="index.html">Home</a></li> 
+                  <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+                  <li><a href="reviewsycomentarios.html">Reviews y comentarios</a></li>
+                  <li><a href="personajes.html">Personajes</a></li>
+                  <li><a href="galeria.html">Galeria</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>   
+            </ul>
+            </nav>
+      </footer> 
 </body>
+<script type="text/javascript">
+    function myFunction() {
+        let x = document.getElementById('navegador2');
+        if (x.className !== 'responsive'){
+            x.className = 'responsive';
+        } else { 
+            x.className = '';
+        }
+    }
+</script> 
+</html>
