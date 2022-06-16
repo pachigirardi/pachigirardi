@@ -32,7 +32,7 @@ nav a:hover {
   color: black;
 }
 
-.titulo { font-size: 50px;  }
+.titulo { font-size: 30px;  }
 
 .sobrerick { display: flex;
 font-size: 50px;
@@ -132,6 +132,9 @@ li a: hover {
 .personajes { 
     font-family: sans-serif;
     color: black; 
+    }
+    .personajestit {
+        font-size: 30px;
     }
 .contenedor {
     display: flex;
