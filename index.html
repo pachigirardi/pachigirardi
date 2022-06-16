@@ -1,10 +1,12 @@
 <!DOCTYPE>
 <html lang="es">
 <head> <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
             <link rel="stylesheet" type="text/css" href="css/estilos.css" />
       <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title> Pickle Rick</title>      
 </head>
 <body>
@@ -13,13 +15,18 @@
             <h1>Pickle Rick</h1></div>     
       </header>
       <div>
-      <nav> 
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">​
+
+        <i class="fa fa-bars"></i>​
+ </a>
+      <nav id= "navegador2"> 
             <ul class="navegador">
                   <li><a href="index.html">Home</a></li> 
                   <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
-                  <li><a href="reviewsycomentarios.html">Reviews y comentarios</a></li>
+                  <li><a href="reviewsycomentarios.html">Reviews</a></li>
                   <li><a href="personajes.html">Personajes</a></li>
-                  <li><a href="galeria.html">Galeria</a></li> 
+                  <li><a href="galeria.html">Galeria</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>   
             </ul>
       </nav>
       </div>
@@ -27,43 +34,43 @@
             <article class="principal">
             <div class="sobrerick"><h2>Sobre Rick y Morty</h2></div>
             <div class="sobrericktexto"><p>La serie para adultos estadounidense "Rick y Morty" comienza en 2013, dirigida por Justin Roiland y Dan Harmon en la compañía Adult Swim.
-            La misma, sigue las diferentes aventuras por todo el universo de Rick, un anciano científico considerado el más inteligente del universo, quien es acompañado por su nieto Morty, un adolescente de 14 años algo torpe y mucho más miedoso que su abuelo.
-            Estos protagonistas están acompañados de tres personajes secundarios que componen la familia de los "Smiths" siendo Beth Sánchez la hija de Rick y madre de Morty la más influyente en la historia, junto a Jerry Smith quien es su esposo y su hija Summer Smith, hermana mayor de Morty.
-            Durante sus aventuras, a veces incluidos los cinco Smiths, conocerán distintos personajes e historias que sobrepasan los límites de la realidad terrenal que nosotros conocemos.
-            La serie cuenta con cinco temporadas actualmente, y los capítulos duran aproximadamente veinte minutos, a medida que transcurren estos episodios los personajes se irán profundizando por sus distintos caminos e iran cambiando poco a poco sus personalidades debido a distintas situaciones.
-            Pero, si bien estos capítulos son interesantes, la mayoría son de comedia y bizarros dirigido a un público adolescente o adulto, generalmente los mismos no tienen un fin de historia en sí, sino de simplemente pasar un buen rato viendo una comedia, como es el caso del episodio "Pickle Rick" al cual está dedicado esta página, episodio que recomendamos mucho ;) </p></div>
+            La misma, sigue las diferentes aventuras por todo el universo de Rick, un anciano científico considerado el más inteligente del universo, quien es acompañado por su nieto Morty, un adolescente de 14 años algo torpe y mucho más miedoso que su abuelo.</p><br>
+            <p>Estos protagonistas están acompañados de tres personajes secundarios que componen la familia de los "Smiths" siendo Beth Sánchez la hija de Rick y madre de Morty la más influyente en la historia, junto a Jerry Smith quien es su esposo y su hija Summer Smith, hermana mayor de Morty.</p><br>
+            <p>Durante sus aventuras, a veces incluidos los cinco Smiths, conocerán distintos personajes e historias que sobrepasan los límites de la realidad terrenal que nosotros conocemos.</p><br>
+            <p>La serie cuenta con cinco temporadas actualmente, y los capítulos duran aproximadamente veinte minutos, a medida que transcurren estos episodios los personajes se irán profundizando por sus distintos caminos e iran cambiando poco a poco sus personalidades debido a distintas situaciones.</p>
+            </div>
             <div class="sobrerickimg">
-                  <img src="img/rickcuchillo.jpg" width="600" height="400"> <p></p></div>
+                  <img class="imghome0"src="img/rickcuchillo.jpg"> <p></p></div>
             </article>
             <section>
         <article class="secundario">
             <div>
                 <li><a href="personajes.html">
-                    <img src="img/rickone.jpg" width="242" height="350">
+                    <img class="imghome" src="img/rickone.jpg" >
                     <h4>Rick Sánchez</h4>
                 </a></li>
             </div>
             <div>
                 <li><a href="personajes.html">
-                    <img src="img/mortyofc.jpeg" width="242" height="350">
+                    <img class="imghome" src="img/mortyofc.jpeg"> 
                     <h4>Morty Smith</h4>
                 </a></li>
             </div>
             <div>
                 <li><a href="personajes.html">
-                    <img src="img/bethofc.jpeg" width="242" height="350">
+                    <img class="imghome" src="img/bethofc.jpeg">
                     <h4>Beth Sánchez</h4>
                 </a></li>
             </div>
             <div>
                 <li><a href="personajes.html">
-                    <img src="img/summer.jpg" width="242" height="350">
+                    <img class="imghome" src="img/summer.jpg">
                     <h4>Summer Smith</h4>
                 </a></li>
             </div>
             <div>
                 <li><a href="personajes.html">
-                    <img src="img/jerry.png" width="242" height="350">
+                    <img class="imghome" src="img/jerry.png">
                     <h4>Jerry Smith</h4>
                 </a></li>
             </div>
@@ -71,8 +78,26 @@
     </section>
       </section>
       <footer>
-            <a href="www.facebook.com">
-            <a href="www.instagram.com">
+            <nav> 
+            <ul class="navegadorpie">
+                  <li><a href="index.html">Home</a></li> 
+                  <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+                  <li><a href="reviewsycomentarios.html">Reviews</a></li>
+                  <li><a href="personajes.html">Personajes</a></li>
+                  <li><a href="galeria.html">Galeria</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>   
+            </ul>
+        </nav>
       </footer> 
 </body>
+<script type="text/javascript">
+    function myFunction() {
+       let x = document.getElementById('navegador2');
+        if (x.className !== 'responsive'){
+            x.className = 'responsive';
+        } else { 
+            x.className = '';
+        }
+    }
+</script>
 </html>
