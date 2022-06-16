@@ -1,0 +1,275 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+} 
+body{
+    background: #82E0AA;
+    font-family: Comic Sans MS;
+font-size: 20px;
+color: #000000;
+    text-align: left;
+    font-family: 'Bangers', cursive;
+}
+
+header{ background-image: url("../img/header.jpg");
+ background-repeat: no-repeat;
+ color: white;
+ text-align: center;
+ background-size: cover;
+ height: 25%;
+ font-size: 50px;
+}
+.titulo { font-size: 50px;  }
+
+.sobrerick { display: flex;
+justify-content: center; 
+font-size: 50px;
+margin-left: 5%;
+margin-bottom: 3%;
+margin-top: 3%;} 
+
+.sobrericktexto { display: inline-block; justify-content: space-around; margin-right: 3%;
+max-width: 45%;}
+.sobrerickimg { display: inline-block; justify-content: space-around;
+    max-width: 45%; 
+}
+
+#header { font-size: 50px }
+#conteiner{ 
+ width: 70%;
+ max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+ } 
+ .inforickymorty { display: flex;
+justify-content: center;
+padding: 0;
+margin: 0; 
+width: 70%;
+ max-width: 51%;
+    }
+
+.nav { display: flex; justify-content: space-around; 
+    font-family: sans-serif;
+    color: black;
+  }
+
+nav{ background-color: #161817; 
+
+    size: 30%;
+text-align: center;
+font-size: 30px;
+} 
+
+li{
+    display: inline;
+}
+
+li a {
+    color: white; margin-right: 50;
+    text-align: center;
+    text-decoration: none;
+}
+
+.logo { justify-content: left; }
+
+.sobrenosotros{ 
+    font-family: sans-serif;
+    color: black; 
+    display: flex; 
+    justify-content: right;
+    }
+
+.reviewsycomentarios { 
+    font-family: sans-serif;
+    color: black; 
+    }
+    .reviewspic {
+         margin-top: 5%;
+    display: flex;
+    color: black;
+}
+
+.reviewspic div {
+    width: 60%;
+    padding: 2%;
+    text-align: center;
+    color: black;
+}
+
+.reviewspic div a img {
+    width: 100%;
+    margin-bottom: 2rem;
+    color: black;
+    }
+    .reviewspic li a { color: black; }
+
+    .reviewsgf div a img { max-width: 40%; }
+
+.personajes { 
+    font-family: sans-serif;
+    color: black; 
+    }
+    .persrick {
+    display: inline-block;
+    width: 50%;
+    justify-content: space-around;
+    margin-left: 1%;
+    margin-bottom: 5%;
+}
+.persrickimg { 
+    display: inline-block;
+    width: 40%; }
+    .persrickimg img {
+        width: 90%;
+        height: auto;
+        margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    }
+        .persmorty {
+    display: inline-block;
+    width: 50%;
+    justify-content: space-around;
+    margin-left: 1%;
+    margin-bottom: 5%;
+}
+.persmortyimg { 
+    display: inline-block;
+    width: 40%; }
+    .persmortyimg img {
+        width: 90%;
+        height: auto;
+        margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    }
+        .persbeth {
+    display: inline-block;
+    width: 50%;
+    justify-content: space-around;
+    margin-left: 1%;
+    margin-bottom: 5%;
+}
+.persbethimg { 
+    display: inline-block;
+    width: 40%; }
+    .persbethimg img {
+        width: 90%;
+        height: auto;
+        margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    }
+        .perssummer {
+    display: inline-block;
+    width: 50%;
+    justify-content: space-around;
+    margin-left: 1%;
+    margin-bottom: 5%;
+}
+.perssummerimg { 
+    display: inline-block;
+    width: 40%; }
+    .perssummerimg img {
+        width: 90%;
+        height: auto;
+        margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    }
+    .persjerry {
+    display: inline-block;
+    width: 50%;
+    justify-content: space-around;
+    margin-left: 1%;
+    margin-bottom: 5%;
+}
+.persjerryimg { 
+    display: inline-block;
+    width: 40%; }
+    .persjerryimg img {
+        width: 90%;
+        height: auto;
+        margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    }
+
+ .galeria { 
+    font-family: sans-serif;
+    color: black; 
+    font-size: 50;
+    }
+    .imagenes_galeria {
+        justify-content: center;
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-right: 5%;
+        font-size: 40;
+    }
+    .principal { font-size: 20px; 
+        display: inline-block;
+        margin-left: 3%;}
+.secundario {
+    margin-top: 5%;
+    display: flex;
+}
+
+.secundario div {
+    width: 33%;
+    padding: 2%;
+    text-align: center;
+}
+
+.secundario div a img {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.secundario li a { color: black; }
+
+h4 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #A2D9CE
+    text-decoration: none;
+}
+.sobrenosotros2 {
+    display: inline-block;
+    width: 50%;
+    justify-content: space-around;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    padding: 2%;
+}
+.sobrenosotros2img { 
+    display: inline-block;
+    width: 40%; }
+    .sobrenosotros2img img {
+        width: 90%;
+        height: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    }
+    .sobrenosotros2 h4 {
+        font-size: 50;
+    }
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+footer img {
+    max-width: 2.5rem;
+    width: 100%;
+    height: auto;
+    margin-right: 1%;
+}
+
+
+
